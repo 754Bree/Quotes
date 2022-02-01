@@ -1,0 +1,8 @@
+
+  <div class="card-footer">
+    <p class="text-sm">   by ~{{goal.name}}</p>
+  
+<button class="btn btn-sm float-right btn-outline-danger m-2" (click)= 'goalDelete(true)'><i class="fa fa-trash"></i> Delete</button>
+  <button class="btn btn-sm btn-outline-natural m-2" (click)="upVote()">{{like}} votes</button>
+  <button class=" btn btn-sm btn-outline-natural" (click)="downVote()">{{dislike}} downvotes</button>
+</div>
